@@ -2,8 +2,8 @@
   "ads": {
     "enabled": true,
     "banner": {
-      "imageUrl": "https://cdn.example.com/banner.jpg",
-      "clickUrl": "https://promo.example.com",
+      "imageUrl": "https://raw.githubusercontent.com/quantv25/tv-ad-assets/refs/heads/main/thanks.png",
+      "clickUrl": "https://zalo.me/g/sddexf825",
       "showMillis": 3000
     },
     "disable": {
