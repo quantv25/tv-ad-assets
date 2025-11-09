@@ -1,37 +1,19 @@
 {
-  "_comment": "File cấu hình quảng cáo - Cập nhật lần cuối: 2024-11-09",
   "ads": {
     "enabled": true,
-    "_note_enabled": "Bật/tắt toàn bộ hệ thống quảng cáo",
-    
     "banner": {
       "imageUrl": "https://raw.githubusercontent.com/quantv25/tv-ad-assets/refs/heads/main/thanks.png",
-      "_note_imageUrl": "Link ảnh quảng cáo",
-      
-      "clickUrl": "https://zalo.me/g/sddexf825", 
-      "_note_clickUrl": "Link khi click vào quảng cáo",
-      
-      "showMillis": 5000,
-      "_note_showMillis": "Thời gian hiển thị QC (milliseconds)"
+      "clickUrl": "https://zalo.me/g/sddexf825",
+      "showMillis": 5000
     },
-    
     "disable": {
-      "until": "null",
-      "_note_until": "Thời gian mở QC lại - định dạng ISO 8601",
-      
-      "reason": "",
-      "_note_reason": "Lý do tắt QC (hiển thị cho user)"
+      "until": null,
+      "reason": ""
     },
-    
     "show_after": {
       "minutes_since_install": 0,
-      "_note_minutes_since_install": "User phải dùng app 120 phút mới hiện QC",
-      
-      "min_sessions": 2,
-      "_note_min_sessions": "User phải mở app 5 lần mới hiện quảng cáo"
+      "min_sessions": 0
     },
-    
-    "rollout": 1.0,
-    "_note_rollout": "Tỷ lệ user nhìn thấy QC (1.0 = 100%, 0.5 = 50%)"
+    "rollout": 1.0
   }
 }
