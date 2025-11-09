@@ -16,10 +16,10 @@
     },
     
     "disable": {
-      "until": "2025-11-08T00:00:00Z",
+      "until": "null",
       "_note_until": "Thời gian mở QC lại - định dạng ISO 8601",
       
-      "reason": "tạm tắt để theo dõi chất lượng",
+      "reason": "",
       "_note_reason": "Lý do tắt QC (hiển thị cho user)"
     },
     
