@@ -24,10 +24,10 @@
     },
     
     "show_after": {
-      "minutes_since_install": 120,
+      "minutes_since_install": 0,
       "_note_minutes_since_install": "User phải dùng app 120 phút mới hiện QC",
       
-      "min_sessions": 5,
+      "min_sessions": 2,
       "_note_min_sessions": "User phải mở app 5 lần mới hiện quảng cáo"
     },
     
